@@ -1,4 +1,4 @@
-module github.com/mateothegreat/go-test-scheduler
+module github.com/mateothegreat/go-tdag
 
 go 1.23.0
 
