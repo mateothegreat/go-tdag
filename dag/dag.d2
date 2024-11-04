@@ -1,0 +1,9 @@
+registration.register -> registration.confirm
+registration.confirm -> session.login
+session.login -> components.create
+components.create -> components.get
+components.get -> components.change.create
+components.change.create -> components.tags.create
+components.tags.create -> components.tags.get
+components.tags.get -> components.tags.delete
+components.tags.delete -> session.logout

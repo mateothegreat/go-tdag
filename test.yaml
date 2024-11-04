@@ -1,0 +1,7 @@
+tests:
+  - name: test1
+    scenarios:
+      - name: scenario1
+        tests:
+          - name: test1
+            command: "echo 'test1'"
